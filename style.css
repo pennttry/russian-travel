@@ -1,0 +1,99 @@
+.page {
+  max-width: 1024px;
+  margin: 0 auto;
+  font-family: 'Inter', Arial, sans-serif;
+  background: #2a2c2f;
+}
+
+.header {
+}
+
+.header__logo {
+}
+
+.header__lang-link {
+}
+
+.content {
+}
+
+.lead {
+}
+
+.lead__title {
+}
+
+.lead__subtitle {
+}
+
+.lead__image {
+}
+
+.lead__caption {
+}
+
+.intro {
+}
+
+.intro__title {
+}
+
+.intro__text {
+}
+
+.intro__list {
+}
+
+.photo-grid {
+}
+
+.photo-grid__item {
+}
+
+.places {
+}
+
+.place {
+}
+
+.place__title {
+}
+
+.place__image {
+}
+
+.place__website {
+}
+
+.place__website__url-heading {
+}
+
+.place__website__link {
+}
+
+.place__website__paragraph {
+}
+
+.place__website__paragraph {
+}
+
+.cover {
+}
+
+.cover__title {
+}
+
+.cover__subtitle {
+}
+
+.cover__background {
+}
+
+.footer {
+}
+
+.footer__link {
+}
+
+.footer__copyright {
+}
