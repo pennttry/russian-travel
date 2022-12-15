@@ -44,7 +44,6 @@
   top: 136px;
   left: 340px;
   margin: 0 auto;
-  font-family: 'Inter';
   font-weight: 900;
   font-size: 96px;
   line-height: 100px;
@@ -58,7 +57,6 @@
   top: 368px;
   left: 380px;
   margin: 0;
-  font-family: 'Inter';
   font-weight: 400;
   font-size: 30px;
   line-height: 36px;
@@ -82,7 +80,6 @@
   top: 1127px;
   left: 195px;
   margin: 0;
-  font-family: 'Inter';
   font-weight: 400;
   font-size: 10px;
   line-height: 14px;
@@ -91,15 +88,49 @@
 }
 
 .intro {
+  color: white;
 }
 
 .intro__title {
+  width: 690px;
+  height: 58px;
+  position: absolute;
+  top: 1223px;
+  left: 195px;
+  margin: 0;
+  font-size: 54px;
+  font-weight: 900;
+  line-height: 58px;
+  text-align: left;
 }
 
 .intro__text {
+  width: 690px;
+  height: 280px;
+  position: absolute;
+  top: 1331px;
+  left: 195px;
+  margin: 0;
+  padding-top: 40px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
 }
 
 .intro__list {
+  width: 690px;
+  height: 90px;
+  position: absolute;
+  top: 1572px;
+  left: 157px;
+  margin: 0;
+  padding-top: 33px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: left;
+  list-style: none;
 }
 
 .photo-grid {
