@@ -143,7 +143,10 @@
   height: 671px;
   position: absolute;
   top: 1754px;
-  left: 48px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
 }
 
 .photo-grid__item {
