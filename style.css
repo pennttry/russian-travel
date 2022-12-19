@@ -405,40 +405,40 @@
   }
 
   .intro__title {
-    width: 690px;
-    height: 58px;
+    width: 288px;
+    height: 70px;
     position: absolute;
-    top: 1223px;
-    left: 148px;
+    top: 576px;
+    left: 16px;
     margin: 0;
-    font-size: 54px;
+    font-size: 32px;
     font-weight: 900;
-    line-height: 58px;
+    line-height: 35px;
     text-align: left;
   }
 
   .intro__text {
-    width: 690px;
-    height: 280px;
+    width: 288px;
+    height: 512px;
     position: absolute;
-    top: 1331px;
-    left: 148px;
+    top: 686px;
+    left: 16px;
     margin: 0;
     padding-top: 40px;
     font-size: 16px;
     font-weight: 400;
-    line-height: 26px;
+    line-height: 26.08px;
     text-align: left;
   }
 
   .intro__list {
-    width: 690px;
+    width: 288px;
     height: 90px;
     position: absolute;
-    top: 1572px;
-    left: 148px;
+    top: 1240px;
+    left: 16px;
     margin: 0;
-    padding-top: 33px;
+    padding-top: 34px;
     padding-left: 0;
     font-size: 12px;
     font-weight: 400;
@@ -449,23 +449,25 @@
   }
 
   .photo-grid {
-    width: 1300px;
-    height: 671px;
+    width: 288px;
+    height: 2724px;
     position: absolute;
-    top: 1754px;
+    top: 1394px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 16px;
+    gap: 12px;
   }
 
   .photo-grid__item {
+    width: 288px;
+    height: 216px;
   }
 
   .places {
     color: white;
     position: absolute;
-    top: 2470px;
+    top: 4182px;
   }
 
   .place {
@@ -476,11 +478,11 @@
   }
 
   .place__title {
-    width: 460px;
-    margin: 80px 672px 0 148px;
-    font-size: 72px;
+    width: 288px;
+    margin: 64px 16px 0;
+    font-size: 32px;
     font-weight: 900;
-    line-height: 76px;
+    line-height: 35px;
     text-align: left;
   }
   /* 
@@ -489,17 +491,17 @@
   } */
 
   .place__image {
-    width: 460px;
-    height: 460px;
-    margin: 48px 672px 0 148px;
+    width: 320px;
+    height: 320px;
+    margin-top: 32px;
   }
 
   .place__website {
-    width: 456px;
+    width: 288px;
     height: 46px;
     position: absolute;
-    left: 648px;
-    margin-top: 120px;
+    left: 16px;
+    margin: 32px 16px 0;
   }
 
   .place__website__url-heading {
@@ -515,7 +517,7 @@
   }
 
   .place__website__link {
-    width: 456px;
+    width: 288px;
     height: 22px;
     font-size: 18px;
     font-weight: 400;
@@ -526,17 +528,17 @@
 
   .text {
     position: absolute;
-    left: 648px;
-    margin-top: 204px;
-    gap: 26px;
+    left: 16px;
+    margin-top: 32px;
+    gap: 25px;
   }
 
   .place__website__paragraph {
-    width: 484px;
+    width: 288px;
     margin: 0;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
-    line-height: 29px;
+    line-height: 26.08px;
     text-align: left;
   }
 
@@ -552,28 +554,28 @@
   }
 
   .cover__title {
-    width: 560px;
+    width: 288px;
     position: absolute;
-    margin: 245px 312px 343px;
-    font-size: 72px;
+    margin: 33px 16px 97px;
+    font-size: 32px;
     font-weight: 900;
-    line-height: 76px;
+    line-height: 35px;
     text-align: center;
   }
 
   .cover__subtitle {
-    width: 360px;
+    width: 288px;
     position: absolute;
-    margin: 429px 412px 245px;
-    font-size: 18px;
+    margin: 119px 16px 33px;
+    font-size: 14px;
     font-weight: 400;
-    line-height: 22px;
+    line-height: 16px;
     text-align: center;
   }
 
   .cover__overlay {
-    width: 1184px;
-    height: 740px;
+    width: 320px;
+    height: 200px;
     background: rgba(42, 44, 47, 0.8);
 
     /* background-color: #2a2c2f;
@@ -585,24 +587,26 @@
   }
 
   .cover__background {
-    width: 1184px;
-    height: 740px;
+    width: 320px;
+    height: 200px;
     opacity: 0.8;
   }
 
   .footer {
+    width: 186px;
+    height: 310px;
     position: relative;
-    top: 6833px;
-    left: 48px;
+    top: 9689px;
+    left: 16px;
     display: flex;
-    gap: 18px;
+    gap: 32px;
   }
 
   .footer__link {
     color: white;
-    font-size: 16px;
+    font-size: 24px;
     font-weight: 400;
-    line-height: 18px;
+    line-height: 24px;
     text-align: left;
     text-decoration: none;
   }
@@ -613,7 +617,7 @@
     margin-left: 533px;
     font-size: 14px;
     font-weight: 400;
-    line-height: 16px;
+    line-height: 14px;
     text-align: right;
   }
 }
