@@ -7,8 +7,77 @@
   background: #2a2c2f;
 }
 
-.header {
+.page__section {
+  max-width: 984px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1279px) {
+  .page__section {
+    padding: 0 48px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .page__section {
+    padding: 0 24px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .page__section {
+    padding: 0 16px;
+  }
+}
+
+.page__section_xl_wide {
+  max-width: 1184px;
+}
+
+@media screen and (max-width: 1279px) {
+  .page__section_lg_wide {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .page__section_md_wide {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .page__section_sm_wide {
+    padding: 0;
+  }
+}
+
+.page__section_xl_narrow {
+  max-width: 984px;
+}
+
+@media screen and (max-width: 1279px) {
+  .page__section_lg_narrow {
+    padding: 0 48px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .page__section_md_narrow {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .page__section_sm_narrow {
+    padding: 0;
+  }
+}
+
+.header div {
   position: relative;
+  width: 1184px;
+  height: 52px;
 }
 
 .header__logo {
@@ -16,7 +85,6 @@
   height: 52px;
   position: absolute;
   top: 28px;
-  left: 48px;
 }
 
 .header__lang-link {
@@ -24,16 +92,19 @@
   height: 28px;
   position: relative;
   top: 46px;
-  left: 1155px;
+  left: 1100px;
+  padding-right: 18px;
   font-weight: 400;
   font-size: 24px;
   line-height: 28px;
   text-align: right;
   color: white;
+  box-sizing: border-box;
 }
 
 .header__lang-link:last-child {
   text-decoration: none;
+  padding-right: 0;
 }
 
 .content {
@@ -93,8 +164,7 @@
   text-transform: uppercase;
 }
 
-.intro {
-  color: white;
+.intro div {
   position: relative;
 }
 
@@ -109,6 +179,7 @@
   font-weight: 900;
   line-height: 58px;
   text-align: left;
+  color: white;
 }
 
 .intro__text {
@@ -123,6 +194,7 @@
   font-weight: 400;
   line-height: 26px;
   text-align: left;
+  color: white;
 }
 
 .intro__list {
@@ -140,6 +212,7 @@
   text-align: left;
   list-style: none;
   box-sizing: border-box;
+  color: white;
 }
 
 .photo-grid {
@@ -147,6 +220,8 @@
   height: 671px;
   position: absolute;
   top: 1754px;
+  right: 0;
+  left: 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -286,11 +361,13 @@
 }
 
 .footer {
+  width: 1184px;
   position: relative;
   top: 6833px;
-  left: 48px;
+  padding: 0;
   display: flex;
   gap: 18px;
+  box-sizing: border-box;
 }
 
 .footer__link {
@@ -377,8 +454,8 @@
   }
 
   .lead__image {
-    width: 984px;
-    height: 615px;
+    width: 320px;
+    height: 200px;
     position: absolute;
     top: 290px;
     left: -2px;
@@ -386,8 +463,6 @@
   }
 
   .lead__caption {
-    width: 158px;
-    height: 14px;
     position: absolute;
     top: 498px;
     left: 16px;
@@ -473,7 +548,6 @@
   .place {
     display: flex;
     flex-wrap: wrap;
-    align-content: flex-end;
     position: relative;
   }
 
@@ -493,7 +567,8 @@
   .place__image {
     width: 320px;
     height: 320px;
-    margin-top: 32px;
+    margin: 0;
+    margin-top: 110px;
   }
 
   .place__website {
@@ -501,7 +576,6 @@
     height: 46px;
     position: absolute;
     left: 16px;
-    margin: 32px 16px 0;
   }
 
   .place__website__url-heading {
@@ -529,8 +603,13 @@
   .text {
     position: absolute;
     left: 16px;
-    margin-top: 32px;
+    margin-top: 561px;
+    display: flex;
+    flex-wrap: wrap;
     gap: 25px;
+  }
+
+  .text::before {
   }
 
   .place__website__paragraph {
@@ -548,8 +627,8 @@
 
   .cover {
     position: absolute;
-    top: 6001px;
-    left: 48px;
+    top: 9425px;
+    left: 0;
     color: white;
   }
 
@@ -597,8 +676,10 @@
     height: 310px;
     position: relative;
     top: 9689px;
-    left: 16px;
+    margin: 0;
+    margin-left: 16px;
     display: flex;
+    flex-direction: column;
     gap: 32px;
   }
 
@@ -612,9 +693,9 @@
   }
 
   .footer__copyright {
+    width: 195px;
     color: white;
-    margin-top: 0;
-    margin-left: 533px;
+    margin: 0;
     font-size: 14px;
     font-weight: 400;
     line-height: 14px;
