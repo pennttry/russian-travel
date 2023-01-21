@@ -1,16 +1,19 @@
 {
-	"folders": [
-		{
-			"path": ".git"
-		},
-		{
-			"path": "blocks"
-		},
-		{
-			"path": "images"
-		},
-		{
-			"path": "vendor"
-		}
-	]
+  "folders": [
+    {
+      "path": ".git"
+    },
+    {
+      "path": "blocks"
+    },
+    {
+      "path": "images"
+    },
+    {
+      "path": "vendor"
+    }
+  ],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": ".git"
+  }
 }
